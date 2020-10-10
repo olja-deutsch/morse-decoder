@@ -39,8 +39,7 @@ const MORSE_TABLE = {
 
 function decode(expr) {
     const matrix       = [],
-          array        = expr.split(''),
-          morseMatrix  = [];
+          array        = expr.split('');
     let resultString = '',
         morseLetter  = '';
 
